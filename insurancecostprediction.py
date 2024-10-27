@@ -20,6 +20,9 @@ from sklearn import metrics
 from google.colab import drive
 drive.mount('/content/drive')
 
+# To get this dataset 
+# https://drive.google.com/file/d/1g179h0nV7wRCNSFWLMXlraIBVfA6aeBY/view?usp=sharing
+
 # Data collection and processing
 insurance_dataset=pd.read_csv("/content/drive/MyDrive/ML Projects/insurance.csv")
 insurance_dataset.head()
